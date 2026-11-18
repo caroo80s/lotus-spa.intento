@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Lotus Spa</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Lotus Spa</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sitios.html">Sitios de Interés</a></li>
+                <li><a href="contactanos.html" class="activo">Contáctanos</a></li>
+                <li><a href="inicio_de_session.html">Iniciar Sesión</a></li>
+                <li><a href="sitio_de_interes.html">Sitio de Interés</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <h1>Contáctanos y Reserva tu Cita</h1>
+        <p>Estamos listos para atenderte y brindarte una experiencia de descanso inolvidable. Escríbenos o visítanos en nuestras instalaciones.</p>
+    </section>
+
+    <main>
+        <div class="grid-contacto">
+
+            <!-- Columna 1: Información de contacto -->
+            <section class="tarjeta-contacto">
+                <h2>Información de Contacto</h2>
+                <p class="subtitulo">Comunícate directamente con nuestro equipo de atención al cliente para consultas, reservas o paquetes especiales.</p>
+
+                <div class="item-info">
+                    <span class="etiqueta-info">Ubicación</span>
+                    <h3>Sede Principal Lotus Spa</h3>
+                    <p>Calle de los Rosales #142, Barrio El Poblado<br>Edificio Armonía, Piso 2</p>
+                </div>
+
+                <div class="item-info">
+                    <span class="etiqueta-info">Teléfonos y WhatsApp</span>
+                    <h3>Líneas de Atención</h3>
+                    <p>Teléfono fijo: (604) 444 89 20<br>WhatsApp Citas: +57 300 555 0198</p>
+                </div>
+
+                <div class="item-info">
+                    <span class="etiqueta-info">Correo Electrónico</span>
+                    <h3>Atención Digital</h3>
+                    <p>reservas@lotusspa.com<br>info@lotusspa.com</p>
+                </div>
+
+                <div class="item-info">
+                    <span class="etiqueta-info">Horarios de Atención</span>
+                    <h3>Abierto toda la semana</h3>
+                    <p>Lunes a Viernes: 8:00 AM - 8:00 PM<br>Sábados, Domingos y Festivos: 9:00 AM - 6:00 PM</p>
+                </div>
+            </section>
+
+            <!-- Columna 2: Formulario de contacto -->
+            <section class="tarjeta-contacto">
+                <h2>Envíanos un Mensaje</h2>
+                <p class="subtitulo">Déjanos tus datos y el servicio de tu interés. Te responderemos a la mayor brevedad posible.</p>
+
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Laura Gómez" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono / WhatsApp</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 300 123 4567" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="servicio">Servicio de interés</label>
+                        <select id="servicio" name="servicio">
+                            <option value="masaje">Masaje Relajante o Terapéutico</option>
+                            <option value="aromaterapia">Sesión de Aromaterapia</option>
+                            <option value="facial">Tratamiento Facial</option>
+                            <option value="rituales">Rituales de Spa y Parejas</option>
+                            <option value="otro">Consulta General / Bono de Regalo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje o fecha deseada</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué día y hora prefieres para tu visita o escribe tu consulta..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lotus Spa - Todos los derechos reservados. Tu espacio de paz y renovación.</p>
+    </footer>
+
+</body>
+</html>
